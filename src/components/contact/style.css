@@ -1,0 +1,62 @@
+.yellow-text{
+    color: #ffbd00;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--terciary-color);
+    padding: 2rem;
+    justify-content: center;
+}
+
+.contact > div {
+    flex-basis: 50%;
+    color: #FFF;
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.contact > div > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contact > div > p {
+    font-size: 1.2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.contact > div > .plantao{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > div > .plantao::after {
+    background-color: #fff;
+    content: "";
+    display: inline-flex;
+    height: 3px;
+    width: 60px;
+}
+
+.contact > div > .phoneNumber {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.contact > div > .phoneNumber :nth-child(2) {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact > div > .phoneNumber :nth-child(2) > img {
+    margin-right: 0.5rem;
+}
+
+.contact > div > .phoneNumber > div {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+}

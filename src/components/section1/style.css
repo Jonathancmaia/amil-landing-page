@@ -1,0 +1,169 @@
+.section1{
+    background-image: url('../../assets/images/section-1-background.png');
+    background-size: cover;
+    background-position-x: 65%;
+    padding: 4rem 1rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 6.7rem;
+}
+
+.white-font{
+    color: #FFF;
+}
+
+.yellow-font{
+    color: #ffbd00;
+}
+
+.fs-1-5 {
+    font-size: 1.5rem;
+}
+
+.individ-handler{
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+    position: relative;
+    top: -3.5rem;
+    left: -0.2rem;
+    height: 4rem;
+}
+
+.uau-handler :first-child {
+    font-size: 5rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.uau-handler :nth-child(2) {
+    font-size: 6rem;
+    position: relative;
+    top: 0.7rem;
+}
+
+.uau-handler :nth-child(3) {
+    font-size: 7rem;
+    position: relative;
+    top: 1.1rem;
+}
+
+.uau-handler :nth-child(4) {
+    font-size: 8rem;
+    position: relative;
+    top: 1.5rem;
+}
+
+.text-container-2{
+    margin-top: 2.5rem;
+    line-height: 2rem;
+}
+
+.price-card{
+    background: linear-gradient(0deg,#ff5d00,#ffbd00);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+    padding: 13px 16px;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #FFF;
+}
+
+.price-card > p{
+    font-size: 1rem;
+}
+
+.price-card > p > span{
+    font-size: 2rem;
+    position: relative;
+    margin-left: 0.5rem;
+    top:-1.5rem;
+}
+
+.price-card :nth-child(2){
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+}
+
+.section1 > div > img {
+    width: 4rem;
+    height: 5rem;
+}
+
+.section1 > small {
+    color: #FFF;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 599px){
+    .section1 {
+        background-image: url('../../assets/images/section-1-background-mobile.png');
+        background-position: 50%;
+        background-size: cover;
+        height: 918px;
+        padding: 4rem 0.25rem 2rem 0.25rem;
+    }
+
+    .price-cardAnd45anos-handler {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .price-card {
+        border-radius: 25px;
+    }
+
+    .price-card > p {
+        font-size: 0.8rem;
+        line-height: 0rem;
+    }
+
+    .price-card :nth-child(2){
+        font-size: 2.8rem;
+        line-height: 5rem;
+        height: 4.5rem;
+    }
+
+    .section1 > small {
+        width: 100%;
+    }
+
+    .individ-handler{
+        font-size: 3rem;
+        position: relative;
+        top: -3rem;
+        height: 3rem;
+    }
+
+    .uau-handler :first-child {
+        font-size: 4rem;
+        position: relative;
+        top: 0.3rem;
+    }
+    
+    .uau-handler :nth-child(2) {
+        font-size: 4.5rem;
+        position: relative;
+        top: 0.4rem;
+    }
+    
+    .uau-handler :nth-child(3) {
+        font-size: 5.5rem;
+        position: relative;
+        top: 0.8rem;
+    }
+    
+    .uau-handler :nth-child(4) {
+        font-size: 6.5rem;
+        position: relative;
+        top: 1rem;
+    }
+}

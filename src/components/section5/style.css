@@ -1,0 +1,55 @@
+.section5 {
+    display: flex;
+    background-color: #f7f7f7;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5 > h1 {
+    color: var(--terciary-color);
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.section5 > h3 {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section5 > .hospitals-handler {
+    border: 2px solid #007eba;
+    width: 95vw;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.section5 > .hospitals-handler > .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.section5 > .hospitals-handler > .item > img {
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.section5 > .hospitals-handler > .item > h3 {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.section5 > .hospitals-handler > .item > small {
+    color: var(--terciary-color);
+    margin: 0.5rem;
+}

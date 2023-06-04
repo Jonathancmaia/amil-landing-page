@@ -1,0 +1,42 @@
+.contact > div > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > div > form > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact > div > form > div > *:not(input[type=checkbox]):not(label) {
+    flex-basis: 50%;
+}
+
+.contact > div > form > div > select {
+    color: rgb(0,0,0,0.5);
+}
+
+.contact > div > form > div > input[type=checkbox]  {
+    margin-left: 1rem;
+}
+
+.contact > div > form > div > label {
+    margin-left: 1rem;
+}
+
+.contact > div > form > div > input[type=submit]{
+    background-color: #461bff;
+    border-style: none;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+    margin: 1rem auto 0rem auto;
+}
+
+.form-input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    margin: 1rem;
+}

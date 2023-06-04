@@ -1,0 +1,33 @@
+.footer {
+    background-color: #0f0d59;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0rem 8.3rem 0rem;
+}
+
+.footer > p {
+    margin: 0.2rem 0rem 0.2rem 0rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer > p > a {
+    color: #00adff;
+    text-decoration: underline;
+    margin: 0rem 0.2rem 0rem 0.2rem;
+}
+
+.footer > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0rem 0rem 2rem 0rem;
+    justify-content: center;
+}
+
+.footer > div > a > img {
+    object-fit: cover;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
